@@ -5,7 +5,34 @@ body {
   width: 18rem;
 }
 
-#navbarSupportedContent {
-text-align: center;
+#navbarSupportedContent .nav-item {
+padding-bottom: 40px;
+padding-left: 200px;
+
 }
 
+.imghouse #houses  {
+  max-height: 380px;
+}
+
+#carouselExampleCaptions {
+  padding-bottom: 100px;
+}
+
+#alignement {
+  max-height: 300px;
+  padding-left: 200px;
+}
+col{
+  max-height: 300px;
+  
+}
+
+.row1  {
+  padding-top: 100px;
+  text-size-adjust: 30px;
+}
+
+.nav-link {
+  text-align: center;
+}
