@@ -17,16 +17,41 @@ body {
   max-height: 300px;
   padding-left: 200px;
 }
-col{
-  max-height: 300px;
-}
 
-.row1 .col-9  {
+
+.row1 .col-9 .textpetit {
   padding-top: 100px;
   text-size-adjust: 30px;
-  font-size: 25px;
+  font-size: 15px;
   font-weight: bold;
   color: green;
 }
 
 
+.row1 .col-9{
+  font-weight: bold;
+  font-size: 35px;
+  padding-bottom: 50px;
+}
+
+.row1{
+  padding-right: 500px;
+}
+
+
+#navbarSupportedContent{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.row1 .col-4{
+padding-bottom: 20px;
+}
+.row1 .col-5{
+
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
