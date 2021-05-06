@@ -19,17 +19,14 @@ body {
 }
 col{
   max-height: 300px;
-  
 }
 
 .row1 .col-9  {
   padding-top: 100px;
   text-size-adjust: 30px;
-  font-size: 35px;
+  font-size: 25px;
   font-weight: bold;
+  color: green;
 }
 
-.nav-link {
-  text-align: center;
-}
 
