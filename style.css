@@ -24,7 +24,7 @@ body {
   text-size-adjust: 30px;
   font-size: 15px;
   font-weight: bold;
-  color: green;
+  color: #008776;
 }
 
 
@@ -54,5 +54,20 @@ padding-bottom: 20px;
 }
 
 .row p{
-  color: green;
+  color: #008776;
+  font-weight: bold;
+}
+
+.textalignement .latest{
+  padding-left: 112px;
+  font-weight: bold;
+  font-size: 30px;
+  
+}
+
+.textalignement .viewall{
+  text-align: right;
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 100px;
 }
