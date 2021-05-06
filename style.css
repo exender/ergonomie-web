@@ -19,7 +19,7 @@ body {
 }
 
 
-.row1 .col-9 .textpetit {
+.row1 {
   padding-top: 100px;
   text-size-adjust: 30px;
   font-size: 15px;
@@ -35,7 +35,7 @@ body {
 }
 
 .row1{
-  padding-right: 500px;
+  padding-left: 112px;
 }
 
 
@@ -45,7 +45,7 @@ body {
 }
 
 .row1 .col-4{
-padding-bottom: 20px;
+padding-bottom: 12px;
 }
 
 .img-fluid{
@@ -57,17 +57,33 @@ padding-bottom: 20px;
   color: #008776;
   font-weight: bold;
 }
+.row{
+  padding-bottom: 150px;
+}
 
-.textalignement .latest{
+ .latest{
   padding-left: 112px;
   font-weight: bold;
   font-size: 30px;
   
 }
 
-.textalignement .viewall{
-  text-align: right;
+.viewall{
+  
   font-weight: bold;
   font-size: 20px;
-  padding-right: 100px;
+  padding-right: 112px;
+}
+
+.col-9 h3{
+  font-size: 15px;
+  padding-left: 112px;
+  color: #008776;
+  font-weight: bold;
+}
+.col-9 p{
+  font-size: 25px;
+  padding-left: 112px;
+  font-weight: bold;
+  padding-bottom: 80px;
 }
