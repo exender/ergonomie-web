@@ -91,3 +91,9 @@ padding-bottom: 12px;
 .row3{
   padding-left: 112px;
 }
+
+.row2 #imgfluid{
+  max-width: 25%;
+  height: auto;
+  
+}
