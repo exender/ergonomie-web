@@ -1,117 +1,321 @@
+/* #008776
+#f8f8f8 */
 body {
-  font-family: Roboto;
-}
-.card {
-  width: 18rem;
-}
-
-.imghouse #houses  {
-  max-height: 380px;
+    padding: 0;
+    margin: 0;
+    background: #f8f8f8;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
 }
 
-#carouselExampleCaptions {
-  padding-bottom: 100px;
+.search .form-control {
+    padding-left: 2.375rem;
 }
 
-#alignement {
-  max-height: 300px;
-  padding-left: 200px;
+.search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
 }
 
-
-.row1 {
-  padding-top: 100px;
-  text-size-adjust: 30px;
-  font-size: 15px;
-  font-weight: bold;
-  color: #008776;
+.carousel .carousel-control-prev, .carousel .carousel-control-next {
+    visibility: hidden;
 }
 
-
-.row1 .col-9{
-  font-weight: bold;
-  font-size: 35px;
-  padding-bottom: 50px;
+.carousel:hover .carousel-control-prev, .carousel:hover .carousel-control-next {
+    visibility: visible;
 }
 
-.row1{
-  padding-left: 112px;
+.carousel-image {
+    object-fit: cover;
+    min-height: 600px !important;
 }
 
-
-#navbarSupportedContent{
-  text-align: center;
-  padding-bottom: 20px;
+.carousel-caption h3 {
+    font-size: small;
+	font-weight: 500;
 }
 
-.row1 .col-4{
-padding-bottom: 12px;
+.carousel-caption p {
+    font-size: 42px;
+	font-weight: 500;
 }
 
-.img-fluid{
-  max-width: 100%;
-  height: auto;
+#latest-homes .house {
+    max-height: 500px;
 }
 
-.row p{
-  color: #008776;
-  font-weight: bold;
-}
-.row{
-  padding-bottom: 150px;
+.home-card  h5, p {
+	font-weight: 500;
+    font-size: 14px;
 }
 
- .latest{
-  padding-left: 112px;
-  font-weight: bold;
-  font-size: 30px;
-  
+.home-card  h5 {
+    color: #008776;
+    letter-spacing: 2px;
 }
 
-.viewall{
-  
-  font-weight: bold;
-  font-size: 20px;
-  padding-right: 112px;
+.big-green {
+    font-size: 14px;
 }
 
-.col-9 h3{
-  font-size: 15px;
-  padding-left: 112px;
-  color: #008776;
-  font-weight: bold;
-}
-.col-9 p{
-  font-size: 25px;
-  padding-left: 112px;
-  font-weight: bold;
-  padding-bottom: 80px;
+#special img {
+    position: relative;
+    transform: translate(45%);
+    height: 500px;
 }
 
-.row3{
-  padding-left: 112px;
+.big-text {
+    font-size: 24px;
 }
 
-.row2 #imgfluid{
-  max-width: 25%;
-  height: auto; 
+.big-green {
+	font-weight: 500;
+    color: #008776;
 }
 
-.row2 p{
-    display:inline-block;
-    width:50%;
-    margin: 0px 0px 0px 0px;
+.green {
+    color: #008776;
 }
 
-.box {
-  display: grid;
-  width: 540px;
-  grid-template-columns: 120px 120px 120px;
-  align-items: start;
-  justify-content: space-between;
+.heavy {
+	font-weight: 500;
 }
 
-.box :first-child {
-    align-self: center;
+.light {
+	font-weight: 200;
 }
-      
+
+.zoomed-image {
+    overflow: hidden;
+}
+
+.zoomed-image img {
+    transform: scale(1.02, 1.02);
+    transition: all 0.2s ease-in-out;
+}
+
+.zoomed-image:hover img {
+    transform: scale(1, 1);
+    cursor: pointer;
+}
+
+#cozy-places {
+    background-image: url("Medias/accommodations-tag-cozy-places-38a12fe6.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit:contain;
+}
+
+.house-card {
+    background-color: #f8f8f8;
+}
+
+.big-margin-b {
+    margin-bottom: 6.5rem;
+}
+
+.big-padding-b {
+    padding-bottom: 8rem;
+}
+
+.image-container {
+    position: relative;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.image-center {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-card {
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#list img {
+    position: relative;
+    height: 650px;
+}
+
+.list-m-p {
+    margin: 50px;
+    padding: 20px;
+}
+
+.list-m-p-2 {
+    margin: 20px;
+    padding: 20px;
+}
+
+#cozy-places .house {
+    width: 100%;
+}
+
+#cozy-places .button-div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-div-list {
+    display: flex;
+    justify-content: center;
+}
+
+.overflow-dots {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.article p {
+    height: 60px;
+}
+
+footer #newsletter {
+    background-color: #008776;
+}
+
+.newsletter-button {
+    border: 1px solid #f8f8f8;
+    border-color: 1px solid #f8f8f8;
+    background-color: #008776;
+}
+
+.newsletter-button span {
+    color: #f8f8f8;
+}
+
+#newsletter h3 {
+    color: #f8f8f8;
+}
+
+.form-input {
+    width: 100%;
+    text-indent: 10px;
+    border: 1px solid #24a392;
+    border-color: 1px solid #24a392;
+    background-color: #24a392;
+}
+
+.form-button {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.newsflex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.newstext {
+    width: 100%;
+    text-align: center;
+}
+
+.newsform {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer #footer img {
+    height: 40px;
+}
+
+.footer-pres {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.footer-list {
+
+}
+
+.footer-list .green {
+    letter-spacing: 2px;
+}
+
+@media only screen and (min-width: 768px){
+    .newsform {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-input {
+        width: 25%;
+    }
+
+    .form-button {
+        width: 25%;
+        display: inline;
+    }
+}
+
+@media only screen and (min-width: 992px){
+    #cozy-places .house {
+        max-height: 450px;
+    }
+
+    .list-m-p {
+        margin: 50px;
+        padding: 40px;
+    }
+
+    .list-m-p-2 {
+        margin: 30px;
+        padding: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px){
+    #cozy-places .house {
+        max-height: 450px;
+    }
+
+    .flex-div-list {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .list-m-p {
+        margin: 50px;
+        padding: 50px;
+    }
+
+    .list-m-p-2 {
+        margin: 50px;
+        padding: 50px;
+    }
+
+    .newstext {
+        width: 20%;
+        text-align: left;
+    }
+
+    .newsflex {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
